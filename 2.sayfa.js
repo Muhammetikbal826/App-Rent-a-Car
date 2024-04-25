@@ -21,12 +21,12 @@ const testApp7 = () => {
         <TextInput
           style={{
             borderWidth: 1,
-            borderColor: 'gray',
-            borderRadius: 5,
-            paddingLeft: 10,
+            borderColor: 'black',
+            borderRadius: 50,
+            paddingLeft: 20,
             margin: 10,
           }}
-          placeholder="Ara..."
+          placeholder="Araba Modelini yazınız"
         />
         <Image
           source={require('./tesla.png')}
