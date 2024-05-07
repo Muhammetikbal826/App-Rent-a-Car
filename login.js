@@ -1,13 +1,20 @@
 import React from 'react';
-import { View, Text, TextInput, TouchableOpacity, StyleSheet, ImageBackground, Image } from 'react-native';
+import {
+  View,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  StyleSheet,
+  ImageBackground,
+  Image,
+} from 'react-native';
 
 const LoginScreen = () => {
   return (
     <ImageBackground
       source={require('./araba.png')}
       style={styles.background}
-      resizeMode="cover"
-    >
+      resizeMode="cover">
       <View style={styles.overlay}>
         <View style={styles.container}>
           <Image source={require('./logo.png')} style={styles.logo} />
@@ -55,7 +62,6 @@ const styles = StyleSheet.create({
     width: 150,
     height: 150,
     marginBottom: 20,
-  
   },
   title: {
     fontSize: 35,
@@ -94,7 +100,7 @@ const styles = StyleSheet.create({
   },
   buttonText: {
     color: '#fff',
-    fontSize: 16,
+    fontSize: 17,
     fontWeight: 'bold',
   },
 });

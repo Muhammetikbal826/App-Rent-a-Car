@@ -17,8 +17,7 @@ const yeni = () => {
   return (
     <SafeAreaView>
       <View>
-        <Image
-          source={require('./tesla.png')}
+        <Image source={require('./tesla.png')}
           style={{ width: windowWidth * 1, height: windowWidth * 0.5 }}
         />
         <View
